@@ -1,0 +1,92 @@
+<!doctype html>
+<!-- joan sebastian piratova -->
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>lanCol-STORE - compra y vende videojuegos o accesorios</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>lanCol-STORE</h1>
+    <nav>
+      <a href="#valor">Propuesta</a> |
+      <a href="#clientes">Clientes</a> |
+      <a href="#validacion">Validación</a>
+      <a href="demo.html">Demo tienda</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="valor">
+      <h2>Propuesta de valor</h2>
+      <p>lancol store es una plataforma donde puedes, vender o intercambiar
+        videojuegos y accesorios de forma segura y rápida</p>
+        <img src="assets/propuesta_img1_act_pag_.jpg" 
+           alt="Usuario jugando" 
+           width="300">
+    </section>
+
+    <section id="clientes">
+  <h2>Segmento de clientes</h2>
+  <p>¿A quién servimos?</p>
+  <div class="clientes-container">
+
+    <div class="card">
+      <img src="assets/clientes_img1_act_pag.jpg" 
+           alt="economizar" 
+           width="150">
+      <p>Jugadores que buscan economía al comprar accesorios o videojuegos.</p>
+    </div>
+
+    <div class="card">
+      <img src="assets/clientes_img2_act_pag.jpg" 
+           alt="intercambio" 
+           width="200">
+      <p>Jugadores que desean vender o intercambiar juegos usados.</p>
+    </div>
+
+    <div class="card">
+      <img src="assets/clientes_img3_act_pag.jpg" 
+           alt="colecionable" 
+           width="200">
+      <p>Personas que buscan vender coleccionables gamer.</p>
+    </div>
+  </div>
+</section>
+
+    <section id="validacion">
+      <h2>Contactanos</h2>
+      <p>Ayúdanos respondiendo este breve formulario:</p>
+
+      <form action="mailto:storelancol@gmail.com" method="post" enctype="text/plain">
+        <label for="nombre">Nombre</label><br>
+        <input id="nombre" name="nombre" required><br>
+
+        <label for="interes">¿Te interesa este producto/servicio?</label><br>
+        <select id="interes" name="interes">
+          <option>Sí</option>
+          <option>No</option>
+          <option>Tal vez</option>
+        </select><br>
+
+        <label for="precio">Precio que pagarías (USD) por videojuegos usados</label><br>
+        <input id="precio" name="precio" type="number" min="0"><br>
+
+        <label for="coment">Comentario</label><br>
+        <textarea id="coment" name="coment"></textarea><br>
+
+        <label for="productos_nuevos">Sugiere mas productos para nuestra pagina</label><br>
+        <textarea id="productos_nuevos" name="productos_nuevos"></textarea><br>
+
+        <button type="submit">Enviar</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 lancol</p>
+  </footer>
+</body>
+</html>
